@@ -1,9 +1,9 @@
 const results = document.querySelector("#toP");
 
-const display = changeText("Tack så mycket!"); 
+const display = changeText("Tack så mycket!");
 
-function changeText(newText){
-return newText.toUpperCase();
-}; 
+function changeText(newText) {
+    return newText.toUpperCase();
+};
 
 results.innerText = display;
